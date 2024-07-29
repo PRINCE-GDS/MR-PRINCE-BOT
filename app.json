@@ -3,54 +3,6 @@
   "description": "Prince MD A WhatsApp User BOT",
   "logo": "https://telegra.ph/file/d9bcfd1ae673ebd58bd3e.jpg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/PRINCE-GDS/THE-PRINCE-BOT",
-  
-  "stack": "container",
-  "env": {
-       "DATABASE_URL": {
-      "description": "your mongodb database url",
-      "required": false,
-      "value": ""
-      },
-     "MODE": {
-      "description": "mode public or private",
-      "required": true,
-      "value": "public"
-       },
-     "HKEY": {
-      "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
-      "required": true,
-      "value": ""
-    },
-     "HAPP": {
-      "description": "Put the Heroku app name, same as above entered",
-      "required": true,
-      "value": ""
-       },
-    "PREFIX": {
-      "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
-      "value": ""
-     },
-    "antidelete": {
-      "description": "bot will forward deleted messages if you make it true",
-      "required": false,
-      "value": "false"
-       },
-    "statusview": {
-      "description": "make it true if you want bot to view status",
-      "required": false,
-      "value": ""
-    },
-    "autoRead": {
-      "description": "make it true if you want bot to read messages",
-      "required": false,
-      "value": ""
-    },{
-  "name": "PRINCE-BOT",
-  "description": "Prince MD A WhatsApp User BOT",
-  "logo": "https://telegra.ph/file/d9bcfd1ae673ebd58bd3e.jpg",
-  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
   "repository": "https://github.com/PRINCE-GDS/MR-PRINCE-BOT",
   
   "stack": "container",
@@ -120,28 +72,6 @@
    
   },
     
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-    {
-      "url": "https://github.com/bogini/heroku-buildpack-graphicsmagick"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ]
-}
-    "SESSION_ID": {
-      "description": "your session id",
-      "required": true,
-      "value": ""
-    }
-    },
-    "addons": [{ "plan": "heroku-postgresql:basic" }],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
