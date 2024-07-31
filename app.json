@@ -1,16 +1,16 @@
 {
-  "name": "PRINCE-BOT",
-  "description": "Prince MD A WhatsApp User BOT",
-  "logo": "https://telegra.ph/file/d9bcfd1ae673ebd58bd3e.jpg",
+  "name": "MANNO-BOT",
+  "description": "MANNO-MD A WhatsApp User BOT",
+  "logo": "https://i.imgur.com/uYjI1Fl.jpeg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
-  "repository": "https://github.com/PRINCE-GDS/MR-PRINCE-BOT",
+  "repository": "https://github.com/Itxmanno05/THE-MANNO-BOT",
   
   "stack": "container",
   "env": {
       "OWNERS": {
       "description": "Put your Number as Owner",
       "required": true,
-      "value": "923092668108;Prince"
+      "value": "923097045246;MANNO-2.0"
 
      },
       "DATABASE_URL": {
@@ -46,12 +46,12 @@
     "BOT_NAME": {
       "description": "Put your BOT a name",
       "required": true,
-      "value": "ᴛʜᴇ-ᴘʀɪɴᴄᴇ-ᴍᴅ-ʙᴏᴛ"
+      "value": "*🛡️MANNO-BOT-MÐ🛡️*"
       },
     "DL_MSG": {
       "description": "Video downloader caption",
       "required": true,
-      "value": "💌--------------------ᴘʀɪɴᴄᴇ-ᴍᴅ----------------------💌"
+      "value": "💌--------------------🛡️MANNO-MÐ🛡️----------------------💌"
        },
     "STATUSVIEW": {
       "description": "Make it true if you want bot to view status",
